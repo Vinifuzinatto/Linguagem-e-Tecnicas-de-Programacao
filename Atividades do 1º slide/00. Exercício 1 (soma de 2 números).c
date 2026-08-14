@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//Exercício 1: Faça um programa que receba dois números, efetue a soma e mostre o resultado na tela.
+
 int main() {
 	
 	int a, b, c;
