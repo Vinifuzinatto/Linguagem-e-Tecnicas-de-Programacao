@@ -5,7 +5,7 @@
 
 int main() {
 	
-/*Exercício 1 (pt. 1): Faça um programa que leia dois números inteiros e depois os imprima na ordem inversa em que eles foram lidos.*/
+/*ExercÃ­cio 1 (pt. 1): FaÃ§a um programa que leia dois nÃºmeros inteiros e depois os imprima na ordem inversa em que eles foram lidos.*/
 	
 	/*int inteiro_1, inteiro_2;
 	
@@ -18,7 +18,7 @@ int main() {
 	
 	
 
-/*Exercício 1 (pt.2) Agora faça sem mexer na ordem de leitura e impressão.*/
+/*ExercÃ­cio 1 (pt.2) Agora faÃ§a sem mexer na ordem de leitura e impressÃ£o.*/
 
 	/*int primeiro, segundo, aux;
 	
@@ -34,18 +34,18 @@ int main() {
 	
 
 
-/*Exercício 2 (pt.1): Faça um programa que leia um valor do tipo double e depois o imprima na forma de notação científica. */
+/*ExercÃ­cio 2 (pt.1): FaÃ§a um programa que leia um valor do tipo double e depois o imprima na forma de notaÃ§Ã£o cientÃ­fica. */
 
 	/*double valor_tipo_double;
 	
-	printf("Insira um número positivo qualquer: ");
+	printf("Insira um nÃºmero positivo qualquer: ");
 	scanf("%lf", &valor_tipo_double);
 	
 	printf("\nResultado em notacao cientifica: %E", valor_tipo_double);
 	
 
 
-/*Exercício 2 (pt.2): Agora faça sem usar a formatação da linguagem. (NAO FINALIZADO)*/
+/*ExercÃ­cio 2 (pt.2): Agora faÃ§a sem usar a formataÃ§Ã£o da linguagem. (NAO FINALIZADO)*/
 
 	/*double valor_double, A, n, notacao_cientifica;
 	
@@ -59,7 +59,7 @@ int main() {
 	
 	
 	
-/*Exercício 3: Implemente um programa que leia um número n [com n positivo & n <=64] e mostre na tela o seu valor em base binária(bits). */
+/*ExercÃ­cio 3: Implemente um programa que leia um nÃºmero n [com n positivo & n <=64] e mostre na tela o seu valor em base binÃ¡ria(bits). */
 
 	/*int numero, resultado, bit_64, bit_32, bit_16, bit_8, bit_4, bit_2;
 	
@@ -89,8 +89,8 @@ int main() {
 	
 	
 	
-/*Exercício 4: Faça um programa que leia o salário fixo e o valor total em vendas de um vendedor. Sabendo que este vendedor ganha 15% de comissão 
-sobre suas vendas efetuadas, mostre o total a receber no final do mês, com duas casas decimais. */
+/*ExercÃ­cio 4: FaÃ§a um programa que leia o salÃ¡rio fixo e o valor total em vendas de um vendedor. Sabendo que este vendedor ganha 15% de comissÃ£o 
+sobre suas vendas efetuadas, mostre o total a receber no final do mÃªs, com duas casas decimais. */
 
 	/*float salario_fixo, total_vendas, comissao, salario_total;
 	
@@ -106,7 +106,7 @@ sobre suas vendas efetuadas, mostre o total a receber no final do mês, com duas 
 
 
 
-/*Exercício 5: Elabore um programa que peça ao usuário para digitar 4 valores e mostre na tela a soma, média e o produtório desses valores. */
+/*ExercÃ­cio 5: Elabore um programa que peÃ§a ao usuÃ¡rio para digitar 4 valores e mostre na tela a soma, mÃ©dia e o produtÃ³rio desses valores. */
 
 	/*float valor_1, valor_2, valor_3, valor_4, soma, media, produtorio;
 	
@@ -127,7 +127,7 @@ sobre suas vendas efetuadas, mostre o total a receber no final do mês, com duas 
 
 
 
-/*Exercício 6: Leia um valor inteiro correspondente à idade de uma pessoa em dias e informe-a em anos, meses e dias. */
+/*ExercÃ­cio 6: Leia um valor inteiro correspondente Ã  idade de uma pessoa em dias e informe-a em anos, meses e dias. */
 
 	/*int idade, idade_anos, idade_meses, idade_dias;
 	
@@ -144,9 +144,9 @@ sobre suas vendas efetuadas, mostre o total a receber no final do mês, com duas 
 
 
 
-/*Exercício 7: Faça um programa que calcule e mostre o volume de uma esfera, sendo fornecido o valor do seu raio (R). Considere para pi o valor 3.14159. */
+/*ExercÃ­cio 7: FaÃ§a um programa que calcule e mostre o volume de uma esfera, sendo fornecido o valor do seu raio (R). Considere para pi o valor 3.14159. */
 
-	/*float volume, raio; //V = (4/3) * pi * R³
+	/*float volume, raio; //V = (4/3) * pi * RÂ³
 	
 	printf("Insira o valor do raio da esfera: ");
 	scanf("%f", &raio);
@@ -157,9 +157,9 @@ sobre suas vendas efetuadas, mostre o total a receber no final do mês, com duas 
 	
 	
 
-/*Exercício 8: Leia os quatro valores do usuário correspondentes às coordenadas em um plano cartesiano, p1(x1,y1) e p2(x2,y2). A seguir, calcule e mostre a distância entre eles, aplicando a distância euclidiana. */
+/*ExercÃ­cio 8: Leia os quatro valores do usuÃ¡rio correspondentes Ã s coordenadas em um plano cartesiano, p1(x1,y1) e p2(x2,y2). A seguir, calcule e mostre a distÃ¢ncia entre eles, aplicando a distÃ¢ncia euclidiana. */
 
-	/*float x1, x2, y1, y2, p1, p2, distancia;   //d = v((x2-x1)² + (y2-y1)²)
+	/*float x1, x2, y1, y2, p1, p2, distancia;   //d = v((x2-x1)Â² + (y2-y1)Â²)
 	
 	printf("Escreva as coordenadas do ponto 1(P1): ");
 	scanf("%f %f", &x1, &y1);
