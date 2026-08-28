@@ -2,27 +2,30 @@
 #include <stdlib.h>
 #include <math.h>
 #define pi 3.141592
+#include <locale.h>
 
 int main() {
+	setlocale(LC_ALL, "Portuguese");
 	
-/*ExercÌcio 1: FaÁa um programa que calcule o ano de nascimento de uma pessoa a partir de sua idade e do ano atual. */
+printf("EXERC√çCIO 1: Fa√ßa um programa que calcule o ano de nascimento de uma pessoa a partir de sua idade e do ano atual. \n");
 
-	/*int idade, ano_atual, ano_nascimento;
+	int idade, ano_atual, ano_nascimento;
 	
 	printf("Escreva sua idade: ");
 	scanf("%d", &idade);
-	printf("Escreva o ano em que esta: ");
+	printf("Escreva o ano em que est√°: ");
 	scanf("%d", &ano_atual);
 	
 	ano_nascimento = ano_atual - idade;
 	
-	printf("\nSeu ano de nascimento e %d", ano_nascimento);
+	printf("\nSeu ano de nascimento √© %d", ano_nascimento);
 	
-	
-	
-/*ExercÌcio 2: Leia uma velocidade em km/h (quuilÙmetros por hora) e apresente convertida em m/s (metros por segundo). */
+	printf("\n\n\n");
+ 	system("pause");
+ 	
+printf("\n\nEXERC√çCIO 2: Leia uma velocidade em km/h (quuil√¥metros por hora) e a apresente convertida em m/s (metros por segundo). \n");
 
-	/*float velocidade_1, velocidade_2;
+	float velocidade_1, velocidade_2;
 	//velocidade_1 = km/h
 	//velocidade_2 = m/s
 	
@@ -31,86 +34,88 @@ int main() {
 	
 	velocidade_2 = velocidade_1 / 3.6;
 	
-	printf("\nA velocidade %f km/h = %f m/s", velocidade_1, velocidade_2);
+	printf("\nA velocidade %0.2f km/h = %0.2f m/s", velocidade_1, velocidade_2);
 	
+	printf("\n\n\n");
+ 	system("pause");
 	
-	
-/*ExercÌcio 3: FaÁa um programa que leia um valor em reais e a cotaÁ„o do dÛlar. Em seguida, imprima o valor correspondente em dÛlares. */
+printf("\n\nEXERC√çCIO 3: Fa√ßa um programa que leia um valor em reais e a cota√ß√£o do d√≥lar. Em seguida, imprima o valor correspondente em d√≥lares. \n");
 
-	/*float valor_reais, cotacao_dolar, valor_dolar;
+	float valor_reais, cotacao_dolar, valor_dolar;
 	
-	printf("Insira o valor a ser convertido de reais para dolares: ");
+	printf("\nInsira o valor a ser convertido de reais para dolares: ");
 	scanf("%f", &valor_reais);
-	printf("Insira a cotacao do dolar atual: ");
+	printf("Insira a cota√ß√£o do dolar atual: ");
 	scanf("%f", &cotacao_dolar);
 	
 	valor_dolar = valor_reais / cotacao_dolar;
 	
-	printf("\nO valor %0.2f R$ = %0.2f em dolares!", valor_reais, valor_dolar);
+	printf("\nO valor %0.2f R$ = %0.2f dolar(es)!", valor_reais, valor_dolar);
 	
+	printf("\n\n\n");
+ 	system("pause");
 	
-	
-/*ExercÌcio 4: Leia um valor que represente uma temperatura em graus Celsius e apresente-a convertida em graus Fahrenheit. */
+printf("\n\nEXERC√çCIO 4: Leia um valor que represente uma temperatura em graus Celsius e apresente-a convertida em graus Fahrenheit.");
 
-	/*float temp_celsius, temp_fahrenheit;
+	float temp_celsius, temp_fahrenheit;
 	
 	printf("Insira a temperatura em celsius a ser convertida: ");
 	scanf("%f", &temp_celsius);
 	
 	temp_fahrenheit = (temp_celsius * 9.0 / 5.0) + 32.0;
 	
-	printf("\nA temperatura %0.2f∞C = %0.2f∞F", temp_celsius, temp_fahrenheit);
-
-
+	printf("\nA temperatura %0.2f¬∞C = %0.2f¬∞F", temp_celsius, temp_fahrenheit);
 	
-/*ExercÌcio 5: Leia um ‚ngulo em graus e apresente-o convertido em radianos. */
+	printf("\n\n\n");
+ 	system("pause");
 
-	/*float angulo, radianos;
+printf("\n\nEXERC√çCIO 5: Leia um √¢ngulo em graus e apresente-o convertido em radianos.");
+
+	float angulo, radianos;
 	
-	printf("Insira o valor do angulo a ser convertido: ");
+	printf("\nInsira o valor do √¢ngulo a ser convertido: ");
 	scanf("%f", &angulo);
 	
 	radianos = angulo * pi / 180;
 	
-	printf("\nO angulo %0.2f = %0.2f em pi radianos!!!", angulo, radianos);
+	printf("\nO √¢ngulo %0.2f = %0.2f em pi radianos!!!", angulo, radianos);
 	
+	printf("\n\n\n");
+ 	system("pause");
 	
-	
-/*ExercÌcio 6: FaÁa um programa que leia um n˙mero inteiro e retorne seu antecessor e sucessor. */
+printf("\n\nEXERC√çCIO 6: Fa√ßa um programa que leia um n√∫mero inteiro e retorne seu antecessor e sucessor.");
 
-	/*int num, antecessor, sucessor;
+	int num, antecessor, sucessor;
 	
-	printf("Insira um valor qualquer: ");
+	printf("\nInsira um valor qualquer: ");
 	scanf("%d", &num);
 	
 	antecessor = num - 1;
 	sucessor = num + 1;
 	
 	printf("\nSucessor = %d \nAntecessor = %d", sucessor, antecessor);
-	
-	
-	
-/*ExercÌcio 7: A import‚ncia de R$780.000,00 ser· dividida entre trÍs ganhadores de um concurso, sendo que:
-- O primeiro receber· 46% do total;
-- O segundo receber· 32% do total;
-- O terceiro receber· o restante;
-Calcule e imprima a quantia recebida por cada um dos ganhadores. */
 
- 	/*float primeiro, segundo, terceiro;
+ 	printf("\n\n\n");
+ 	system("pause");
+	
+printf("\n\nEXERC√çCIO 7: A import√¢ncia de R$780.000,00 ser√° dividida entre tr√™s ganhadores de um concurso, sendo que: \n- O primeiro receber√° 46 porcento do total; \n- O segundo receber√° 32 porcento do total; \n- O terceiro receber√° o restante; \nCalcule e imprima a quantia recebida por cada um dos ganhadores.");
+
+ 	float primeiro, segundo, terceiro;
  	
  	primeiro = 780000.00 * 46 / 100;
  	segundo = 780000.00 * 32 / 100;
  	terceiro = 780000.00 - primeiro - segundo;
  	
- 	printf("Os tres ganhadores do concurso receberao: \n\nPrimeiro lugar = %0.2f \nSegundo lugar = %0.2f \nTerceiro lugar = %0.2f", primeiro, segundo, terceiro);
+ 	printf("\n\nOs tr√™s ganhadores do concurso receber√£o: \n\nPrimeiro lugar = %0.2f R$ \nSegundo lugar = %0.2f R$ \nTerceiro lugar = %0.2f R$", primeiro, segundo, terceiro);
  	
+ 	printf("\n\n\n");
+ 	system("pause");
  	
- 	
-/*ExercÌcio 8: Leia um valor inteiro que È o tempo de duraÁ„o em segundos de um determinado evento em uma f·brica, e informe-o expresso no formato horas:minutos:segundos. */
+ printf("\n\nEXERC√çCIO 8: Leia um valor inteiro que √© o tempo de dura√ß√£o em segundos de um determinado evento em uma f√°brica, e informe-o expresso no formato horas:minutos:segundos.");	
 
-	/*int valor_int, segundos, minutos, horas, resto;
+	int valor_int, segundos, minutos, horas, resto;
 	
-	printf("Insira o tempo de duracao de um evento que aconteceu na fabrica em segundos: ");
+	printf("\nInsira o tempo de dura√ß√£o de um evento que aconteceu na f√°brica em segundos: ");
 	scanf("%d", &valor_int);
 	
 	horas = valor_int / 3600; //1h = 3600s
@@ -120,47 +125,50 @@ Calcule e imprima a quantia recebida por cada um dos ganhadores. */
 	
 	segundos = resto % 60;
 
-	printf("\nA duracao desse evento foi de %dh %dmin %ds", horas, minutos, segundos);
+	printf("\nA dura√ß√£o desse evento foi de %dh %dmin %ds", horas, minutos, segundos);
 	
-	
-	
-/*ExercÌcio 9: Joaozinho quer calcular e mostrar a quantidade de litros de combustÌvel gastos em uma viagem, ao utilizar um automÛvel que faz 12 KM/L. Para isso, ele gostaria que vocÍ o auxiliasse atravÈs de um simples programa. 
-Para efetuar o c·lculo, deve-se fornecer o tempo gasto na viagem (em horas) e a velocidade mÈdia durante a mesma (em km/h). Assim, pode-se obter dist‚ncia percorrida e, em seguida, calcular quantos litros seriam necess·rios.
-Mostre o valor com 3 casas decimais apÛs o ponto. */
+	printf("\n\n\n");
+ 	system("pause");
+ 	
+printf("\n\nEXERC√çCIO 9: Joaozinho quer calcular e mostrar a quantidade de litros de combust√≠vel gastos em uma viagem, ao utilizar um autom√≥vel que faz 12 KM/L. Para isso, ele gostaria que voc√™ o auxiliasse atrav√©s de um simples programa.");
+printf(" Para efetuar o c√°lculo, deve-se fornecer o tempo gasto na viagem (em horas) e a velocidade m√©dia durante a mesma (em km/h). Assim, pode-se obter dist√¢ncia percorrida e, em seguida, calcular quantos litros seriam necess√°rios.");
+printf(" Mostre o valor com 3 casas decimais ap√≥s o ponto.");
 
-	/*float tempo_gasto, velocidade_media, distancia, litros_necessarios;
+	float tempo_gasto, velocidade_media, distancia, litros_necessarios;
 	
-	printf("Insira o tempo gasto na viagem em horas: ");
+	printf("\nInsira o tempo gasto na viagem em horas: ");
 	scanf("%f", &tempo_gasto);
-	printf("Insira a velocidade media da viagem: ");
+	printf("Insira a velocidade m√©dia da viagem: ");
 	scanf("%f", &velocidade_media);
 	
 	distancia = velocidade_media * tempo_gasto;
 	litros_necessarios = distancia / 12;
 	
-	printf("\nVoce ira precisar de %0.3f litros para completar essa viagem!", litros_necessarios);
+	printf("\nVoc√™ ira precisar de %0.3f litros para completar essa viagem!", litros_necessarios);
 	
+	printf("\n\n\n");
+ 	system("pause");
 	
-	
-/*ExercÌcio 10 (pt.1): FaÁa um programa que leia trÍs valores e apresente o maior dos trÍs lidos seguido da mensagem "eh o maior". */
+printf("\n\nEXERC√çCIO 10 (pt.1): Fa√ßa um programa que leia tr√™s valores e apresente o maior dos tr√™s lidos seguido da mensagem 'eh o maior'.");
 
-	/*float a, b, c, maior_temporario, maior;
+	float a, b, c, maior_temporario, maior;
 	
-	printf("Insira tres valores para a comparacao: ");
+	printf("\nInsira tr√™s valores para a compara√ß√£o: ");
 	scanf("%f %f %f", &a, &b, &c);
 	
-	maior_temporario = (a + b+ abs(a-b)) / 2; //unsigned int abs = valor È transfomado em sem sinal
+	maior_temporario = (a + b+ abs(a-b)) / 2; //unsigned int abs = valor √© transfomado em sem sinal
 	maior = (maior_temporario + c + abs(maior_temporario - c)) / 2;
 	
-	printf("\nO maior entre |%0.0f|%0.0f|%0.0f| = %0.0f \n", a, b, c, maior);
+	printf("\nO maior entre |%0.0f|%0.0f|%0.0f| = %0.0f", a, b, c, maior);
 	
+	printf("\n\n\n");
+ 	system("pause");
 	
-	
-/*ExercÌcio 10 (pt.2): FaÁa para quatro valores agora. */
+printf("\n\nEXERC√çCIO 10 (pt.2): Fa√ßa para quatro valores agora.");
 
 	int A, B, C, D, maior_temp_1, maior_temp_2, MAIOR;
 	
-	printf("Insira os quatro valores para a comparacao: ");
+	printf("\nInsira os quatro valores para a compara√ß√£o: ");
 	scanf("%d %d %d %d", &A, &B, &C, &D);
 	
 	maior_temp_1 = (A + B + abs(A - B)) / 2;
@@ -168,6 +176,8 @@ Mostre o valor com 3 casas decimais apÛs o ponto. */
 	MAIOR = (maior_temp_1 + maior_temp_2 + abs(maior_temp_1 - maior_temp_2)) / 2;
 	
 	printf("\nO maior entre |%d|%d|%d|%d| = %d \n", A, B, C, D, MAIOR);
+	
+printf("\nFIM DAS ATIVIDADES!!!");
 	
 	return 0;
 }
