@@ -51,18 +51,30 @@ printf("\n\nEXERCÍCIO 2 (pt.1): Faça um programa que leia um valor do tipo dou
 	printf("\n\n\n");
  	system("pause");
 
-/*Exercício 2 (pt.2): Agora faça sem usar a formatação da linguagem. (NAO FINALIZADO)*/
-
-	/*double valor_double, A, n, notacao_cientifica;
+printf("\n\nEXERCÍCIO 2 (pt.2): Agora faça sem usar a biblioteca.");
 	
-	printf("Insira um numero positivo qualquer: ");
+	double valor_double, A;
+	int N = 0;
+	
+	printf("\nInsira um número positivo qualquer: ");
 	scanf("%lf", &valor_double);
 	
-	A = valor_double / 
-	notacao_cientifica = valor_double * pow (10, n);
+	A = valor_double;
 	
-	printf("\nO valor %lf em notacao cientifica e igual a %lf", valor_double, notacao_cientifica);*/
+	while (A >= 10){
+		A = A / 10;
+		N++;
+	}
+	while (A < 1){
+		A = A * 10;
+		N--;
+	}
 	
+	printf("\nO valor %lf em notação cientifica é: %0.2lf x 10^%d", valor_double, A, N);
+
+	printf("\n\n\n");
+ 	system("pause");
+
 printf("\n\nEXERCÍCIO 3: Implemente um programa que leia um número n [com n positivo & n <=64] e mostre na tela o seu valor em base binária(bits).");
 
 	int numero, resultado, bit_64, bit_32, bit_16, bit_8, bit_4, bit_2;
