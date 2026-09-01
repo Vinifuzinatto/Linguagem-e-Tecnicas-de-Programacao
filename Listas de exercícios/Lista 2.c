@@ -176,8 +176,28 @@ printf("\n\nEXERCÍCIO 10 (pt.2): Faça para quatro valores agora.");
 	MAIOR = (maior_temp_1 + maior_temp_2 + abs(maior_temp_1 - maior_temp_2)) / 2;
 	
 	printf("\nO maior entre |%d|%d|%d|%d| = %d \n", A, B, C, D, MAIOR);
+
+	printf("\n\n");
+ 	system("pause");
+
+printf("\n\nEXERCÍCIO 10 (pt.3): Faça o exercício utilizando as condicionais necessarias agora.");
 	
-printf("\nFIM DAS ATIVIDADES!!!");
+	float valor_1, valor_2, valor_3;
+	
+	printf("\nInsira os três valores a serem comparados: ");
+	scanf("%f %f %f", &valor_1, &valor_2, &valor_3);
+	
+	if ((valor_1 > valor_2) && (valor_1 > valor_3)){
+		printf("\nO maior valor é %0.2f", valor_1);
+	}
+	else if ((valor_1 < valor_2) && (valor_2 > valor_3)){
+		printf("\nO maior valor é %0.2f", valor_2);
+	}
+	else{
+		printf("\nO maior valor é %0.2f", valor_3);
+	}
+	
+printf("\n\nFIM DAS ATIVIDADES!!!");
 	
 	return 0;
 }
