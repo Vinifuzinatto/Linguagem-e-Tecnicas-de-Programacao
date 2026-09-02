@@ -2,28 +2,6 @@
 #include <stdlib.h>
 
 int main() {
-
-/*Exercício aula: Ler um número e informar se ele é par ou ímpar. */
-
-	int numero;
-	
-	printf("Insira um valor: ");
-	scanf("%d", &numero);
-	
-	if (numero % 2 == 0){
-		printf("O numero e par!!!");
-	}
-	else
-	printf("O numero e impar!!!");
-	
-
-
-/*Exercício aula 2: Faça um programa que leia do teclado um letra e imprima a sua correspondência no "Abecedário da Xuxa". */
-
-	char letra;
-	
-	printf("Insira uma letra do alfabeto: ");
-	scanf("%c", &letra);
 	
 /*Exercício: Construa um programa que receba dois valores e verifique se eles sao positivos ou negativos.
 - Caso sejam positivos, verifique se são menores que 10, caso sejam, vefirique se são primos e mostre a área e hipotenusa do triângulo formado por eles.
