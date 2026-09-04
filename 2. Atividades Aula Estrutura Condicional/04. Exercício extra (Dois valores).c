@@ -2,17 +2,17 @@
 #include <stdlib.h>
 #include <math.h>
 
-/*Exercício extra: Construa um programa que receba dois valores e verifique se eles são positivos ou negativos.
-	- Caso sejam positivos, verifique se são menores que 10, caso sejam, verifique se são primos e mostre a área e hipotenusa do triângulo formado por eles.
-	- Caso não sejam primos, mostre as operações básicas entre eles.
-	- Caso sejam maiores que 10, mostre se são multiplos um pelo outro.
-	- Caso não sejam positivos, mostre seus inversos. */
+/*ExercÃ­cio extra: Construa um programa que receba dois valores e verifique se eles sÃ£o positivos ou negativos.
+	- Caso sejam positivos, verifique se sÃ£o menores que 10, caso sejam, verifique se sÃ£o primos e mostre a Ã¡rea e hipotenusa do triÃ¢ngulo formado por eles.
+	- Caso nÃ£o sejam primos, mostre as operaÃ§Ãµes bÃ¡sicas entre eles.
+	- Caso sejam maiores que 10, mostre se sÃ£o multiplos um pelo outro.
+	- Caso nÃ£o sejam positivos, mostre seus inversos. */
 
 int main() {
 	
 	int a, b, A, H, som, sub, mult, div;
-	//A = Área do triângulo
-	//H = Hipotenusa do triângulo
+	//A = Ãrea do triÃ¢ngulo
+	//H = Hipotenusa do triÃ¢ngulo
 	
 	printf("Insira dois valores: ");
 	scanf("%d %d", &a, &b);
@@ -33,7 +33,7 @@ int main() {
 				printf("\nAs operacoes basicas entre esses valores sao: \nSoma = %d \nSubtracao = %d \nMultiplicacao = %d \nDivisao = %d", som, sub, mult, div);
 			}
 		} else {
-			if (a % b == 0) {
+			if ((a % b == 0) || (b % a == 0)) {
 				printf("\nSao multiplos!!!");
 			} else {
 				printf("\nNao sao multiplos!!!");
