@@ -12,7 +12,7 @@ float calc_inss(float salario) { // calculo do desconto do INSS
 	else if (salario <= 4000.03) return salario * 0.12;
 	else return salario * 0.14;
 }
-float calc_irpf(float sal_base) { //calculo do desconto do IRPF; salário base = salario - desconto do INSS
+float calc_irpf(float sal_base) { //calculo do desconto do IRPF; salÃ¡rio base = salario - desconto do INSS
 	if (sal_base <= 2259.20) return 0; //isento
 	else if (sal_base <= 2826.65) return sal_base * 0.075 - 169.44;
 	else if (sal_base <= 3751.05) return sal_base * 0.15 - 381.44;
@@ -23,7 +23,7 @@ float calc_irpf(float sal_base) { //calculo do desconto do IRPF; salário base = 
 int main() {
 	setlocale(LC_ALL, "Portuguese");
 	
-	printf("Exercício 1: Terminal Infinite Cash! \n");
+	printf("ExercÃ­cio 1: Terminal Infinite Cash! \n");
 	
 		int saque, nota1, nota2, nota3, nota4, nota5, nota6, resultado;
 		//nota 1 = 100 R$
@@ -59,24 +59,24 @@ int main() {
 		printf("\n\n");
 		system ("pause"); 
 		
-	printf("\nExercício 2: Operação ENIAC - Trajetória! \n");
+	printf("\nExercÃ­cio 2: OperaÃ§Ã£o ENIAC - TrajetÃ³ria! \n");
 	
 		float v_inicial, angulo, rad, tempo, alcance;
 		
-		printf("\nInfome a velocidade inicial e o angulo (em graus) do projétil: ");
+		printf("\nInfome a velocidade inicial e o angulo (em graus) do projÃ©til: ");
 		scanf("%f %f", &v_inicial, &angulo);
 		
 		rad = angulo * PI / 180;
 		
 		/*
-		Calculo do tempo em um lançamento obliquo desconsiderando a resistência do ar:
+		Calculo do tempo em um lanÃ§amento obliquo desconsiderando a resistÃªncia do ar:
 		
-		Sy = S0y + V0y . t - g . t² / 2 
+		Sy = S0y + V0y . t - g . tÂ² / 2 
 		Sy = 0
 		S0y = 0
-		0 = V0y . t - g . t² / 2  
-		g . t² / 2 = V0y . t // OBS.: V0y = V0 . sen(ANGULO)
-		g . t² / 2 = V0 . sen(ANGULO) . t
+		0 = V0y . t - g . tÂ² / 2  
+		g . tÂ² / 2 = V0y . t // OBS.: V0y = V0 . sen(ANGULO)
+		g . tÂ² / 2 = V0 . sen(ANGULO) . t
 		g . t / 2 = V0 . sen(ANGULO)
 		
 		t = 2 . V0 . sen(ANGULO) / g
@@ -85,16 +85,16 @@ int main() {
 		tempo = 2 * v_inicial * sin(angulo) / G;
 		alcance = (v_inicial * cos(rad) / K) * (1 - exp(-K * tempo)); // exp(x) = e^x
 		
-		printf("\nTempo de voo = %0.2f s\nAlcance maxímo = %0.2f m", tempo, alcance);
+		printf("\nTempo de voo = %0.2f s\nAlcance maxÃ­mo = %0.2f m", tempo, alcance);
 		
 		printf("\n\n");
 		system ("pause");
 		
-	printf("\nExercício 3: Cálculo de INSS! \n");
+	printf("\nExercÃ­cio 3: CÃ¡lculo de INSS! \n");
 	
 		float salario1, des_inss;
 		
-		printf("\nInforme seu salário: ");
+		printf("\nInforme seu salÃ¡rio: ");
 		scanf("%f", &salario1);
 		
 		printf("\nDesconto do INSS em cima de %0.2f R$ = %0.2f R$", salario1, des_inss = calc_inss(salario1));
@@ -102,28 +102,28 @@ int main() {
 		printf("\n\n");
 		system ("pause");
 	
-	printf("\nExercício 4: Cálculo de IRPF! \n");
+	printf("\nExercÃ­cio 4: CÃ¡lculo de IRPF! \n");
 	
 		float salario2, des_irpf, sal_base;
 		
-		printf("\nInforme seu salário: ");
+		printf("\nInforme seu salÃ¡rio: ");
 		scanf("%f", &salario2);
 		
 		sal_base = salario2 - calc_inss(salario2);
 		des_irpf = calc_irpf(sal_base);
 		
-		printf("\nSalário base (Salário - desconto do INSS) = %0.2f \nDesconto do IRPF = %0.2f", sal_base, des_irpf);
+		printf("\nSalÃ¡rio base (SalÃ¡rio - desconto do INSS) = %0.2f R$\nDesconto do IRPF em cima desse salÃ¡rio = %0.2f R$", sal_base, des_irpf);
 		
 		printf("\n\n");
 		system ("pause");
 		
-	printf("\nExercício 5: Emissão de Contra-cheque! \n");
+	printf("\nExercÃ­cio 5: EmissÃ£o de Contra-cheque! \n");
 	
 		float v_horas, q_horas, sal_bruto, sal_liquido, des_inss1, des_irpf1, sal_base1, imposto;
 		
-		printf("\nInfome quantas horas você trabalha: ");
+		printf("\nInfome quantas horas vocÃª trabalha: ");
 		scanf("%f", &v_horas);
-		printf("informe a quantidade total de horas que você trabalha no mês: ");
+		printf("informe a quantidade total de horas que vocÃª trabalha no mÃªs: ");
 		scanf("%f", &q_horas);
 		
 		sal_bruto = v_horas * q_horas;
@@ -133,12 +133,12 @@ int main() {
 		imposto = calc_inss(sal_bruto) + calc_irpf(sal_base1);
 		sal_liquido = sal_bruto - imposto;
 		
-		printf("\n====================================================== \n    RECIBO DE PAGAMENTO DE SALÁRIO (CONTRA-CHEQUE)    \n====================================================== \n");
-		printf(" Salário Bruto (Horas x Valor):   R$ %0.2f", sal_bruto);
+		printf("\n====================================================== \n    RECIBO DE PAGAMENTO DE SALÃRIO (CONTRA-CHEQUE)    \n====================================================== \n");
+		printf(" SalÃ¡rio Bruto (Horas x Valor):   R$ %0.2f", sal_bruto);
 		printf("\n (-) Desconto INSS:               R$ %0.2f", des_inss1);
 		printf("\n (-) Desconto IRPF:               R$ %0.2f", des_irpf1);
 		printf("\n------------------------------------------------------");
-		printf("\n LÍQUIDO A RECEBER:               R$ %0.2f", sal_liquido);
+		printf("\n LÃQUIDO A RECEBER:               R$ %0.2f", sal_liquido);
 		printf("\n====================================================== \n");
 		
 		printf("\n\n");
