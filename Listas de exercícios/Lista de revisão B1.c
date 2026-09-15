@@ -5,10 +5,10 @@
 int calc_cpf(int num, int valor) {
 	return num * valor;
 }
-float celcius_farenheit(float celsius) { //Função pra conversão de Celcius pra Farenheit
+float celcius_farenheit(float celsius) { //FunÃ§Ã£o pra conversÃ£o de Celcius pra Farenheit
 	return (celsius * 9.0 / 5.0) + 32.0;
 }
-float farenheit_celsius(float farenheit) { //Função pra conversão de Farenheit pra Celsius
+float farenheit_celsius(float farenheit) { //FunÃ§Ã£o pra conversÃ£o de Farenheit pra Celsius
 	return (farenheit - 32.0) * 5.0 / 9.0;
 }
 float escolha(int opcao, float temp) { 
@@ -39,7 +39,7 @@ int main() {
 		printf("\nInforme seu CPF no formato X X X . X X X . X X X - X X: ");
 		scanf("%d %d %d . %d %d %d . %d %d %d - %d %d", &num1, &num2, &num3, &num4, &num5, &num6, &num7, &num8, &num9, &num_v1, &num_v2);
 		
-		//1º Digito
+		//1Âº Digito
 		
 		soma1 = calc_cpf(num1, 10) + calc_cpf(num2, 9) + calc_cpf(num3, 8) +
 		calc_cpf(num4, 7) + calc_cpf(num5, 6) + calc_cpf(num6, 5) +
@@ -52,7 +52,7 @@ int main() {
 		
 		printf("\nPrimeiro digito apos o traco: %d", resto1);
 		
-		//2º Digito
+		//2Âº Digito
 		
 		soma2 = calc_cpf(num1, 11) + calc_cpf(num2, 10) + calc_cpf(num3, 9) +
 		calc_cpf(num4, 8) + calc_cpf(num5, 7) + calc_cpf(num6, 6) +
