@@ -16,6 +16,8 @@ int main() {
 	scanf("%d", &n3);
 	printf("Quarto: ");
 	scanf("%d", &n4);
+
+	// n % 2 != 0 (==) n % 2 == 1
 	
 	if (n1 % 2 != 0) {
 		if (n1 % 5 == 0) printf("\nO numero %d e impar e multiplo de 5", n1);
