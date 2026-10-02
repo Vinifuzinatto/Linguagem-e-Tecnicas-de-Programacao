@@ -3,7 +3,7 @@
 
 int main() {
 	
-//ExercÌcio 1
+//Exerc√≠cio 1
 
 	int n1, n2, n3, n4, aux;
 	
@@ -16,7 +16,7 @@ int main() {
 	printf("Insira o quarto valor numerico natural: ");
 	scanf("%d", &n4);
 	
-	aux = n1; //Auxiliar guarda o n1 para n„o ser perdido
+	aux = n1; //Auxiliar guarda o n1 para n√£o ser perdido
 	
 	n1 = n3;
 	n3 = n4;
@@ -26,7 +26,7 @@ int main() {
 	printf("\nA troca dos valores e = %d %d %d %d", n1, n2, n3, n4);
 	
 	
-//ExercÌcio 2:
+//Exerc√≠cio 2:
 
 	/*float vpa, v_patrimonial, qtde_acoes, preco_atual, pvp;
 	
