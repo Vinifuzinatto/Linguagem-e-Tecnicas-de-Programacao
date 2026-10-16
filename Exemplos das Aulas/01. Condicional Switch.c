@@ -8,8 +8,8 @@ tipo nome (lista de parametros){
 }
 */
 
-void exec3 (){ //Void = tipo da minha função |  exec = nome da função
-		//Exercício 3: Faça um programa que leia um valor em reais e a cotação do dólar. Em seguida, imprima o valor correspondente em dólares.
+void exec3 (){ //Void = tipo da minha funÃ§Ã£o |  exec = nome da funÃ§Ã£o
+		//ExercÃ­cio 3: FaÃ§a um programa que leia um valor em reais e a cotaÃ§Ã£o do dÃ³lar. Em seguida, imprima o valor correspondente em dÃ³lares.
 		
 		float reais, cota;
 		
@@ -20,8 +20,8 @@ void exec3 (){ //Void = tipo da minha função |  exec = nome da função
 }
 
 void exec4 (){
-		//Exercício 4: Leia um valor que representa uma temperatura em graus Celsius e apresente-a convertida em graus Fahrenheit.
-		//Fórmula: F = C * (9.0/5.0) + 32.0
+		//ExercÃ­cio 4: Leia um valor que representa uma temperatura em graus Celsius e apresente-a convertida em graus Fahrenheit.
+		//FÃ³rmula: F = C * (9.0/5.0) + 32.0
 
 		float tempC, tempF;
 	
@@ -30,11 +30,11 @@ void exec4 (){
 	
 		tempF = tempC * (9.0/5.0) + 32.0;
 	
-		printf("\nOs %0.2f C° sao %0.2f °F \n", tempC, tempF);
+		printf("\nOs %0.2f CÂ° sao %0.2f Â°F \n", tempC, tempF);
 }
 
 void exec8 (){
-		//Exercício 8: Leia um valor inteiro, que é o tempo de duração em segundos de um determinado evento em fábrica, e informe-o expresso no formato horas:minutos:segundos.
+		//ExercÃ­cio 8: Leia um valor inteiro, que Ã© o tempo de duraÃ§Ã£o em segundos de um determinado evento em fÃ¡brica, e informe-o expresso no formato horas:minutos:segundos.
 		
 		int sec, horas, min;
 		
