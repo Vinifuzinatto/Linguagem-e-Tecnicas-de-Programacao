@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Faça um programa que leia 10 números, mostre o maior entre os 5 primeiros e o menor entre os restantes
+//FaÃ§a um programa que leia 10 nÃºmeros, mostre o maior entre os 5 primeiros e o menor entre os restantes
 
 int compara_maior(int a, int b) {
 	if(a > b) return a;
