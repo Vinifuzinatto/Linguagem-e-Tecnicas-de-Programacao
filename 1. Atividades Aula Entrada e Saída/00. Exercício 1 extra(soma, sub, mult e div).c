@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Soma, subtração, multiplicação e divisão de 2 números
+//Soma, subtraÃ§Ã£o, multiplicaÃ§Ã£o e divisÃ£o de 2 nÃºmeros
 
 int main() {
 	
