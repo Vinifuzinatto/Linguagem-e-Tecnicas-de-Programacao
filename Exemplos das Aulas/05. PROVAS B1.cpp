@@ -8,7 +8,7 @@ void ADS_N_A_0() {
 	int n1, n2, n3, n4, n5;
 	int consecutivo = 0;
 	
-	printf("\nInforme os 5 n˙meros inteiros");
+	printf("\nInforme os 5 n√∫meros inteiros");
 	printf("\nPrimeiro: ");
 	scanf("%d", &n1);
 	printf("Segundo: ");
@@ -21,47 +21,47 @@ void ADS_N_A_0() {
 	scanf("%d", &n5);
 
 	if (abs(n1 - n2) == 1) {
-        printf("%d e %d s„o consecutivos\n", n1, n2);
+        printf("%d e %d s√£o consecutivos\n", n1, n2);
         consecutivo = 1;
     }
     if (abs(n1 - n3) == 1) {
-        printf("%d e %d s„o consecutivos\n", n1, n3);
+        printf("%d e %d s√£o consecutivos\n", n1, n3);
         consecutivo = 1;
     }
     if (abs(n1 - n4) == 1) {
-        printf("%d e %d s„o consecutivos\n", n1, n4);
+        printf("%d e %d s√£o consecutivos\n", n1, n4);
         consecutivo = 1;
     }
     if (abs(n1 - n5) == 1) {
-        printf("%d e %d s„o consecutivos\n", n1, n5);
+        printf("%d e %d s√£o consecutivos\n", n1, n5);
         consecutivo = 1;
     }
     if (abs(n2 - n3) == 1) {
-        printf("%d e %d s„o consecutivos\n", n2, n3);
+        printf("%d e %d s√£o consecutivos\n", n2, n3);
         consecutivo = 1;
     }
     if (abs(n2 - n4) == 1) {
-        printf("%d e %d s„o consecutivos\n", n2, n4);
+        printf("%d e %d s√£o consecutivos\n", n2, n4);
         consecutivo = 1;
     }
     if (abs(n2 - n5) == 1) {
-        printf("%d e %d s„o consecutivos\n", n2, n5);
+        printf("%d e %d s√£o consecutivos\n", n2, n5);
         consecutivo = 1;
     }
     if (abs(n3 - n4) == 1) {
-        printf("%d e %d s„o consecutivos\n", n3, n4);
+        printf("%d e %d s√£o consecutivos\n", n3, n4);
         consecutivo = 1;
     }
     if (abs(n3 - n5) == 1) {
-        printf("%d e %d s„o consecutivos\n", n3, n5);
+        printf("%d e %d s√£o consecutivos\n", n3, n5);
         consecutivo = 1;
     }
     if (abs(n4 - n5) == 1) {
-        printf("%d e %d s„o consecutivos\n", n4, n5);
+        printf("%d e %d s√£o consecutivos\n", n4, n5);
         consecutivo = 1;
     }
     if (consecutivo == 0) {
-        printf("Nao existem n˙meros consecutivos.\n");
+        printf("Nao existem n√∫meros consecutivos.\n");
     }
 }
 void ADS_N_A_1() {
@@ -77,14 +77,14 @@ void ADS_N_A_1() {
 	
 	imc = peso / (altura * altura);
 	
-	if (imc < 18.5) printf("\nSeu IMC È %.2f e vocÍ est· na classificaÁ„o ABAIXO DO PESO!", imc);
-	else if (imc <= 24.9) printf("\nSeu IMC È %.2f e vocÍ est· na classificaÁ„o NORMAL!", imc);
-	else if (imc <= 29.9) printf("\nSeu IMC È %.2f e vocÍ est· na classificaÁ„o ACIMA DO PESO!", imc);
-	else printf("\nSeu IMC È %.2f e vocÍ est· na classificaÁ„o OBESO!", imc);
+	if (imc < 18.5) printf("\nSeu IMC √© %.2f e voc√™ est√° na classifica√ß√£o ABAIXO DO PESO!", imc);
+	else if (imc <= 24.9) printf("\nSeu IMC √© %.2f e voc√™ est√° na classifica√ß√£o NORMAL!", imc);
+	else if (imc <= 29.9) printf("\nSeu IMC √© %.2f e voc√™ est√° na classifica√ß√£o ACIMA DO PESO!", imc);
+	else printf("\nSeu IMC √© %.2f e voc√™ est√° na classifica√ß√£o OBESO!", imc);
 }
 void ADS_N_A_2() {
 	
-	printf ("\nTORRES DE HAN”I! \n");
+	printf ("\nTORRES DE HAN√ìI! \n");
 
     int A = 6, B = 0, C = 0;
 
@@ -129,7 +129,7 @@ void ADS_N_A_2() {
 
 void ESOFT_M_A_0() {
 	
-	printf("\nVERIFICADOR DE N⁄MEROS ÕMPARES E MULTIPLOS DE 5 AO MESMO TEMPO! \n");
+	printf("\nVERIFICADOR DE N√öMEROS √çMPARES E MULTIPLOS DE 5 AO MESMO TEMPO! \n");
 	
 	int n1, n2, n3, n4;
 	
@@ -167,12 +167,12 @@ void ESOFT_M_A_1() {
 	
 	printf("\nInforme a quantidade total de itens a serem transportados: ");
 	scanf("%d", &qtde_itens);
-	printf("Agora, informe tambÈm a capacidade m·xima de cada mochila: ");
+	printf("Agora, informe tamb√©m a capacidade m√°xima de cada mochila: ");
 	scanf("%d", &cap_max);
 	
 	n_mochilas = qtde_itens / cap_max;
 	
-	printf("\nO n˙mero de mochilas a serem preenchidas totalmente È de %d", n_mochilas);
+	printf("\nO n√∫mero de mochilas a serem preenchidas totalmente √© de %d", n_mochilas);
 }
 void ESOFT_M_A_2() {
 	
@@ -240,7 +240,7 @@ void ESOFT_M_B_0() {
 }
 void ESOFT_M_B_1() {
 	
-	printf("\nN⁄MEROS DIFENRENTES EM ORDEM CRESCENTE! \n");
+	printf("\nN√öMEROS DIFENRENTES EM ORDEM CRESCENTE! \n");
 	
 	int a, b, c, temp;
 
@@ -259,7 +259,7 @@ void ESOFT_M_B_1() {
 }
 void ESOFT_M_B_2() {
 	
-	printf("\nIDENTIFICA«√O DA OPERA«√O! \n");
+	printf("\nIDENTIFICA√á√ÉO DA OPERA√á√ÉO! \n");
 	
 	double v1, v2;
     int codigo;
@@ -295,7 +295,7 @@ int main() {
 	int op;
 	
 	printf("OBS: 1 a 3(PROVA ADS), 4 a 6(PROVA ESOFT_A), 7 a 9(PROVA ESOFT_B)");
-	printf("\nInforme a opÁ„o(1|2|3|4|5|6|7|8|9): ");
+	printf("\nInforme a op√ß√£o(1|2|3|4|5|6|7|8|9): ");
 	scanf("%d", &op);
 	
 	switch(op) {
@@ -336,7 +336,7 @@ int main() {
 		break;
 	
 		default:
-			printf("\nOP«√O INV¡LIDA! TENTE NOVAMENTE!");	
+			printf("\nOP√á√ÉO INV√ÅLIDA! TENTE NOVAMENTE!");	
 	}
 	return 0;
 }
