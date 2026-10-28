@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*Faça um programa que leia uma palavra e verifique se ela é um palíndromo. 
+/*FaÃ§a um programa que leia uma palavra e verifique se ela Ã© um palÃ­ndromo. 
 
 Entrada: ABBA
-Saída: é um palíndromo
+SaÃ­da: Ã© um palÃ­ndromo
 
-Palíndromo: Palavra, frase ou número que pode ser lido da esquerda para a direita
+PalÃ­ndromo: Palavra, frase ou nÃºmero que pode ser lido da esquerda para a direita
 ou da direita para a esquerda, mantendo exatamente o mesmo sentido */
 
 int main() {
