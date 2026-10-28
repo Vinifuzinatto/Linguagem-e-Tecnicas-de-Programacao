@@ -3,7 +3,7 @@
 
 int main() {
 	
-	int vet[10];
+	int vet[10]; //10 é o literal
 	
 	printf("Informe os valores! \n");
 	printf("Primeiro: ");
